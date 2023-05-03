@@ -17,7 +17,7 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      database: './src/js/database.js'
+      database: './src/js'
     },
     // Output for our bundles
     output: {
@@ -28,7 +28,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'J.A.T.E.'
+        title: 'Contact Cards'
       }),
      
       // Injects our custom service worker
