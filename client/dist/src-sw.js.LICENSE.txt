@@ -1,0 +1,1 @@
+//!Returns a promise that resolves when all the resources have been precached and routes have been created.
